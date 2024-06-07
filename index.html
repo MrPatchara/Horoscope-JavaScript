@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <img src="Pic/FIND-YOUR-HOROSCOPE-6-7-2024.gif" width="80%" height="40%" >
+                <div class="form-group">
+                    <label for="month" class="h5">Enter your birth month:</label>
+                    <input type="text" id="month" class="form-control" placeholder="e.g., January">
+                </div>
+                 <button class="btn btn-custom mt-3" onclick="getHoroscope()">Get Horoscope</button>
+                <div id="result" class="mt-4 p-3 border rounded">
+                    <img id="zodiac-image" class="img-fluid mb-3" src="" alt="Zodiac Sign">
+                    <div id="fortune-text"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

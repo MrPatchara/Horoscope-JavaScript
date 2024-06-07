@@ -1,0 +1,38 @@
+body {
+    background-image: url('Pic/horoscopes.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+h1 {
+    color: #481797;
+}
+
+
+
+.btn-custom {
+    background-color: #74161b; /* Green */
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #4b277a;
+    color: white;
+}
+
+#result {
+    display: none;
+}
+
+#result.show {
+    display: block;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#zodiac-image {
+    max-width: 100px;
+    height: auto;
+}
